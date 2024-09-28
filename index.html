@@ -28,6 +28,7 @@
 		  "@type": "LocalBusiness",
 		  "name": "Nina Carducci",
 		  "image": "./assets/images/Nina-Carducci.jpg",
+		  "description": "Photographe professionnelle freelance offrant des services de prise de photos, retouche de photos et création d'albums photos.",
 		  "@id": "https://ninacarducci.github.io/",
 		  "url": "https://ninacarducci.github.io/",
 		  "telephone": "+33 5 56 67 78 89",
@@ -43,23 +44,8 @@
 			"latitude": 44.84659,
 			"longitude": -0.60654
 		  },
-		  "openingHoursSpecification": [
-			{
-			  "@type": "OpeningHoursSpecification",
-			  "dayOfWeek": [
-			  "Monday", 
-			  "Tuesday", 
-			  "Wednesday",
-			  "Thursday",
-			  "Friday"
-			  ],
-			  "opens": "10:00",
-			  "closes": "19:00"
-			},
-		  ],
-		  "sameAs": [
-			"https://www.instagram.com/ninacarducci.photo/?hl=fr"
-		  ]
+		  "openingHours": "Mo-Fr 10:00-19:00",
+		  "sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr"
 		}
 		</script>
 </head>
@@ -140,8 +126,7 @@
 			</figure>
 		</div>
 	</section>
-	<section id="services" itemscope itemtype="https://schema.org/Service">
-		<meta itemprop="serviceType" content="Photography">
+	<section id="services" itemscope itemtype="https://schema.org/Offer">
 		<h2 class="title">Mes services</h2>
 		<div class="container">
 			<div class="service">
@@ -151,7 +136,7 @@
 				</div>
 				<div class="service__price">
 					<h4 itemprop="price">350<span itemprop="priceCurrency" content="EUR">€</span>/demi journée</h4>
-					<span itemprop="termsOfService">Matériel, déplacement inclus</span>
+					<span itemprop="disambiguatingDescription">Matériel, déplacement inclus</span>
 				</div>
 			</div>
 			<div class="service">
@@ -161,7 +146,7 @@
 				</div>
 				<div class="service__price">
 					<h4 itemprop="price">50<span itemprop="priceCurrency" content="EUR">€</span>/photo</h4>
-					<span itemprop="termsOfService">2 AR par photo</span>
+					<span itemprop="disambiguatingDescription">2 AR par photo</span>
 				</div>
 			</div>
 			<div class="service">
@@ -171,7 +156,7 @@
 				</div>
 				<div class="service__price">
 					<h4 itemprop="price">400<span itemprop="priceCurrency" content="EUR">€</span> album A4</h4>
-					<span itemprop="termsOfService">30 pages recto/verso</span>
+					<span itemprop="disambiguatingDescription">30 pages recto/verso</span>
 				</div>
 			</div>
 		</div>
