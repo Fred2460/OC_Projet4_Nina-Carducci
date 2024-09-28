@@ -6056,7 +6056,7 @@ textarea.form-control-lg {
   text-align: center;
   background: none;
   border: 0;
-  opacity: 0.5;
+  opacity: 0.6;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6090,6 +6090,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* rtl:options: {
@@ -6117,10 +6118,11 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   padding: 0;
-  margin-right: 15%;
+  margin-right: 46%;
   margin-bottom: 1rem;
-  margin-left: 15%;
+  margin-left: 46%;
   list-style: none;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
