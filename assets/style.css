@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	aspect-ratio: auto 40 / 40;
 }
 
 #about {
@@ -69,8 +70,9 @@ body {
 
 .picture img {
 	width: 100%;
-
+	aspect-ratio: auto 560 / 560;
 }
+
 #about-me {
 	flex: 2
 }
